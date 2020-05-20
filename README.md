@@ -114,6 +114,8 @@ The final model has an accuracy of 88%, which is very good considering the lack 
 
 ## Predicting Custom Images
 
+It is amazing that the model actually predicted the correct breeds of 3 out of 4 of my dogs.
+
 ![](figures/custom.png)
 
 ## False Predictions
