@@ -151,3 +151,16 @@ But in terms of further improvements specific to my dog breed image classificati
 1. Try other pre-trained models (e.g. VGG16, VGG19)
 2. Add data augmentation which takes the training images and manipulates (crop, resize) or distorts them (flip, rotate) to create even more training features for the model to learn from
 3. More finetuning using more and more dog images dataset
+
+# Sources
+
+## Datasets
+1. https://www.dogtime.com
+2. https://www.petfinder.com
+3. https://www.dog.ceo
+4. Udacity Nanodegree
+
+## Others
+1. https://www.geeksforgeeks.org/ml-dummy-classifiers-using-sklearn/
+2. https://www.petsecure.com.au/pet-care/a-guide-to-worldwide-pet-ownership/
+3. https://www.aspca.org/animal-homelessness/shelter-intake-and-surrender/pet-statistics
