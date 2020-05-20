@@ -88,7 +88,7 @@ Here are the metrics trend of the best performing pre-trained model.
 
 ![](figures/bestmodel.png)
 
-![](figures/bestmode2.png)
+![](figures/bestmodel2.png)
 
 In each type of modeling, I am using loss as the basis of which epoch is the best. But in models-to-models comparison, I am using accuracy as my final metric because I am not handling sensitive data like medical decisions where the balance between precision and recall matters. I will simply look at accuracy to check whether the model has correctly predicted a breed. 
 
