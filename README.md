@@ -67,7 +67,7 @@ Upon initial check of file sizes and dimensions, there were several outliers. Th
 
 ![](figures/size2.png)
 
-![](figures/dimen2.png)
+![](figures/size3.png)
 
 There are definite outliers when looking into the file size and dimensions of the images. Image quality does matter when tackling image classification but in order to avoid model biases and in the interest of efficiency, all images will be resized to standard measurements. 
 
