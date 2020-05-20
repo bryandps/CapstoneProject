@@ -45,6 +45,8 @@ This github repository contains the following files.
 
 ## Class Distribution
 
+Below is the class disstribution of 173 different dog breeds.
+
 ![](figures/classdist.png)
 
 There are a total of 173 breeds making this a complex multi-class image classification. Furthermore, there is also a wide disparity in the amount of images available for each class, resulting to an obvious class imbalance. 
@@ -53,11 +55,15 @@ There are various ways that I could deal with the class imbalance. I am predicti
 
 ## Peeking at the Images
 
+Take a look at some of the sample images.
+
 ![](figures/sampleimages.png)
 
 Given the wide variety of dogs as seen in the random images, this proves that there is indeed a need for a dog breed classifier. Normal folks would find it hard to identify a dog's breed because of the significant physical differences and the actual number of breeds there are.
 
 ## Image Sizes and Dimensions
+
+Upon initial check of file sizes and dimensions, there were several outliers. The figures below zoom in on the majority of the files:
 
 ![](figures/size2.png)
 
@@ -78,7 +84,11 @@ These were the steps undertaken in building the various image classification mod
 
 # Metrics and Evaluation
 
+Here are the metrics trend of the best performing pre-trained model.
+
 ![](figures/bestmodel.png)
+
+![](figures/bestmode2.png)
 
 In each type of modeling, I am using loss as the basis of which epoch is the best. But in models-to-models comparison, I am using accuracy as my final metric because I am not handling sensitive data like medical decisions where the balance between precision and recall matters. I will simply look at accuracy to check whether the model has correctly predicted a breed. 
 
@@ -91,17 +101,45 @@ The final model has an accuracy of 88%, which is very good considering the lack 
 ## Predicting Validation Data
 
 1. Predicting invidual image
+
 ![](figures/pred1.png)
 
 2. Showing all prediction probabilities
+
 ![](figures/pred2.png)
 
 3. Sample set of predictions
+
 ![](figures/pred3.png)
 
 ## Predicting Custom Images
 
 ![](figures/custom.png)
+
+## False Predictions
+
+Looking closely at the false predictions, the primary reason they are failing is because of uncanny physical and appearance similarities between two of the breeds. 
+
+1. Sample number one is when they appear similar as in the case of a Labrador Retriever versus a Flatcoated Retriever.
+
+Labrador
+
+![](figures/labrador.jpg)
+
+Flat-coated Retriever
+
+![](figures/flatcoat.jpg)
+
+
+2. Another instance is when both breeds have same unique features or markings such as irregular black splotches of Bluetick Coonhounds and English Setter.
+
+Bluetick Coonhound
+
+![](figures/bluetick.jpg)
+
+English Setter
+
+![](figures/setter.jpg)
 
 # Further Improvements
 
