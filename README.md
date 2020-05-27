@@ -145,6 +145,7 @@ Below is sample screenshot of the user survey in the front end of this project.
 2. https://www.petfinder.com
 3. https://www.dog.ceo
 4. Udacity Nanodegree
+5. American Kennel Club www.akc.org
 
 ## Others
 1. https://www.geeksforgeeks.org/ml-dummy-classifiers-using-sklearn/
