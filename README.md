@@ -85,7 +85,7 @@ The correlation plot below will be used to formulate the least possible number o
 
 It is clear that puppies have faster turnarounds in shelters versus older dogs, which is depressing because even senior dogs deserve to have a happy home.
 
-![](figures/attr2.png)
+![](figures/adopt2.png)
 
 # Modeling Process
 
