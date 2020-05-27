@@ -105,7 +105,7 @@ In each round of modeling, I am using loss as the basis of which epoch is the be
 
 The final image classification model has an accuracy of 91%, which is very good considering the lack of images of half of the breeds and the number of classes.
 
-![](figures/conf.png)
+![](figures/confusion3.png)
 
 Meanwhile, the recommendation system will be using cosine similarity as basis for checking the compatibility of users with corresponding dog breeds. .8 similarity score is the threshold of compatibility.
 
